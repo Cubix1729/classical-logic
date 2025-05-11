@@ -6,8 +6,6 @@ authors = [
     {name = "Ederic", email = "Ederic <edericoytas@gmail.com>"}
 ]
 license = "MIT"
-homepage = "https://github.com/ederic-oytas/classical-logic"
-repository = "https://github.com/ederic-oytas/classical-logic"
 keywords = [
     "and",
     "biconditional",
