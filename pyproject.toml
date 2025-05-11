@@ -1,8 +1,10 @@
-[tool.poetry]
+[project]
 name = "classical-logic"
 version = "0.1.1"
 description = "Python package for propositional logic."
-authors = ["Ederic <edericoytas@gmail.com>"]
+authors = [
+    {name = "Ederic", email = "Ederic <edericoytas@gmail.com>"}
+]
 license = "MIT"
 homepage = "https://github.com/ederic-oytas/classical-logic"
 repository = "https://github.com/ederic-oytas/classical-logic"
@@ -39,6 +41,11 @@ classifiers = [
     "Typing :: Typed",
 ]
 readme = "README.md"
+
+[project.urls]
+homepage = "https://github.com/ederic-oytas/classical-logic"
+repository = "https://github.com/ederic-oytas/classical-logic"
+documentation = "https://classical-logic.readthedocs.io/en/stable/"
 
 [tool.poetry.dependencies]
 python = "^3.9"
