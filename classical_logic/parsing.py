@@ -268,8 +268,7 @@ def prop(text: str, /) -> Proposition:
     Please see the prop() and props() section in the User Guide for more
     details.
 
-    Example: Example Usage
-
+    Example:
         ```python
         import classical_logic as cl
 
@@ -295,8 +294,7 @@ def props(text: str, /) -> tuple[Proposition, ...]:
     Please see the prop() and props() section in the User Guide for more
     details.
 
-    Example: Example Usage:
-
+    Example:
         ```python
         import classical_logic as cl
 
