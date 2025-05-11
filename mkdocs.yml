@@ -9,7 +9,11 @@ site_author: Ederic Oytas
 theme:
   name: "material"
 
-  # Adds an option to change the pallette (light, dark)
+  features:
+    - content.code.copy  # adds a copy button for code blocks
+    - navigation.footer  # adds a footer in each page with links to the previous and next pages
+
+  # Adds an option to change the palette (light, dark)
   palette:
   
     # Palette toggle for light mode
@@ -18,7 +22,7 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    
+
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
